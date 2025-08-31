@@ -1,0 +1,52 @@
+
+
+static void ProcessarUmAluno()
+    {
+        Console.WriteLine("\n=== PROCESSAMENTO INDIVIDUAL ===");
+
+        string nome = LerNomeValido();
+        double[] notas = LerNotas(3);
+        double media = CalcularMedia(notas);
+        bool aprovado = VerificarAprovacao(media);
+
+        ExibirResultadoAluno(nome, notas, media, aprovado);
+    }
+    
+    
+    
+    
+     static void ProcessarMultiplosAlunos()
+        {
+            Console.WriteLine("\n=== PROCESSAMENTO EM LOTE ===");
+            Console.Write("Quantos alunos? ");
+            int quantidade = int.Parse(Console.ReadLine());
+    
+            int aprovados = 0;
+            double somaMedias = 0;
+    
+            for (int i = 0; i < quantidade; i++)
+            {
+                Console.WriteLine($"\n--- ALUNO {i + 1} ---");
+    
+                string nome = LerNomeValido();
+                double[] notas = LerNotas(3);
+                double media = CalcularMedia(notas);
+                bool aprovado = VerificarAprovacao(media);
+    
+                if (aprovado) aprovados++;
+                somaMedias += media;
+    
+                ExibirResultadoAluno(nome, notas, media, aprovado);
+            }
+    
+            // Relatório final
+            Console.WriteLine("\n╔════════════════════════════════════╗");
+            Console.WriteLine("║         RELATÓRIO DA TURMA         ║");
+            Console.WriteLine("╚════════════════════════════════════╝");
+            Console.WriteLine($"Total de alunos: {quantidade}");
+            Console.WriteLine($"Aprovados: {aprovados}");
+            Console.WriteLine($"Reprovados: {quantidade - aprovados}");
+            Console.WriteLine($"Média da turma: {(somaMedias / quantidade):F2}");
+            Console.WriteLine($"Taxa de aprovação: {(aprovados * 100.0 / quantidade):F1}%");
+        }
+    
