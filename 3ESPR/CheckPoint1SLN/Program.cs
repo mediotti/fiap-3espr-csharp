@@ -24,6 +24,8 @@ internal static class Program
         //  F11 - Entra nos métodos no passo a passo
         //  shift  + F11 - Volta do método
 
+        
+        
         Console.WriteLine("1. Testando DemonstrarTiposDados...");
         // Exemplo: Console.WriteLine(DemonstrarTiposDados());
 
