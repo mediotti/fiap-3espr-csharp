@@ -9,7 +9,12 @@ internal static class Program
         // TODO: Implemente as chamadas de teste para demonstrar funcionamento
         // NÃO é obrigatório testar todos os caminhos/casos - apenas mostrar que funciona
         // Use valores de teste simples para validar cada implementação
-        
+
+        //  Treinem rodar o debugger.
+        //  F9 - Coloca o breakpoint
+        //  F10 - Passa sobre o método no passo a passo
+        //  F11 - Entra nos métodos no passo a passo
+        //  shift  + F11 - Volta do método
 
         Console.WriteLine("1. Testando DemonstrarTiposDados...");
         // Exemplo: Console.WriteLine(DemonstrarTiposDados());
