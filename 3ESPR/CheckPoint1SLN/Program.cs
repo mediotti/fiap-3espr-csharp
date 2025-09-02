@@ -10,9 +10,10 @@ internal static class Program
         // Você deve criar um repositório público ou branch no github e me enviar o link pelo
         // teams antes do fim do prazo.
         // IMPORTANTE:
-        // - Não háverá reposição do checkpoint.
+        // - Não haverá reposição do checkpoint.
         // - Fique atento ao prazo, nenhum trabalho será aceito após a data e vou me basear
-        // - na data e hora do último commit como referência.
+        // - O link do seu git deve ser enviado no teams. A data e hora do recebimento do git será utilizada para verificar se foi enviado no prazo.
+        // 
         
         // TODO: Implemente as chamadas de teste para demonstrar funcionamento
         // NÃO é obrigatório testar todos os caminhos/casos - apenas mostrar que funciona
