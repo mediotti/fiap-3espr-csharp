@@ -6,6 +6,14 @@ internal static class Program
     {
         Console.WriteLine("=== CHECKPOINT 1 - FUNDAMENTOS C# - Turma  3ESPY ===\n");
 
+        // ENTREGA ATÉ DIA 08/09 AS 23:59
+        // Você deve criar um repositório público ou branch no github e me enviar o link pelo
+        // teams antes do fim do prazo.
+        // IMPORTANTE:
+        // - Não háverá reposição do checkpoint.
+        // - Fique atento ao prazo, nenhum trabalho será aceito após a data e vou me basear
+        // - na data e hora do último commit como referência.
+        
         // TODO: Implemente as chamadas de teste para demonstrar funcionamento
         // NÃO é obrigatório testar todos os caminhos/casos - apenas mostrar que funciona
         // Use valores de teste simples para validar cada implementação
